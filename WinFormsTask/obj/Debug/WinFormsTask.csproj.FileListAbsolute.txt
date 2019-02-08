@@ -1,0 +1,12 @@
+E:\Studies\С#\miniProgects\WinForms\TaskQulix(WinFormsWCFBD)\WinFormsTask\bin\Debug\WinFormsTask.exe.config
+E:\Studies\С#\miniProgects\WinForms\TaskQulix(WinFormsWCFBD)\WinFormsTask\bin\Debug\WinFormsTask.exe
+E:\Studies\С#\miniProgects\WinForms\TaskQulix(WinFormsWCFBD)\WinFormsTask\bin\Debug\WinFormsTask.pdb
+E:\Studies\С#\miniProgects\WinForms\TaskQulix(WinFormsWCFBD)\WinFormsTask\obj\Debug\WinFormsTask.csprojResolveAssemblyReference.cache
+E:\Studies\С#\miniProgects\WinForms\TaskQulix(WinFormsWCFBD)\WinFormsTask\obj\Debug\WinFormsTask.Form1.resources
+E:\Studies\С#\miniProgects\WinForms\TaskQulix(WinFormsWCFBD)\WinFormsTask\obj\Debug\WinFormsTask.Properties.Resources.resources
+E:\Studies\С#\miniProgects\WinForms\TaskQulix(WinFormsWCFBD)\WinFormsTask\obj\Debug\WinFormsTask.csproj.GenerateResource.cache
+E:\Studies\С#\miniProgects\WinForms\TaskQulix(WinFormsWCFBD)\WinFormsTask\obj\Debug\WinFormsTask.csproj.CoreCompileInputs.cache
+E:\Studies\С#\miniProgects\WinForms\TaskQulix(WinFormsWCFBD)\WinFormsTask\obj\Debug\WinFormsTask.exe
+E:\Studies\С#\miniProgects\WinForms\TaskQulix(WinFormsWCFBD)\WinFormsTask\obj\Debug\WinFormsTask.pdb
+E:\Studies\С#\miniProgects\WinForms\TaskQulix(WinFormsWCFBD)\WinFormsTask\obj\Debug\WinFormsTask.FormAddTask.resources
+E:\Studies\С#\miniProgects\WinForms\TaskQulix(WinFormsWCFBD)\WinFormsTask\obj\Debug\WinFormsTask.FormAddStaff.resources

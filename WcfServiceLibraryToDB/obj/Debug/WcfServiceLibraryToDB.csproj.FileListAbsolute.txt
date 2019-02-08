@@ -1,0 +1,7 @@
+E:\Studies\С#\miniProgects\WinForms\TaskQulix(WinFormsWCFBD)\WcfServiceLibraryToDB\bin\Debug\WcfServiceLibraryToDB.dll.config
+E:\Studies\С#\miniProgects\WinForms\TaskQulix(WinFormsWCFBD)\WcfServiceLibraryToDB\bin\Debug\WcfServiceLibraryToDB.dll
+E:\Studies\С#\miniProgects\WinForms\TaskQulix(WinFormsWCFBD)\WcfServiceLibraryToDB\bin\Debug\WcfServiceLibraryToDB.pdb
+E:\Studies\С#\miniProgects\WinForms\TaskQulix(WinFormsWCFBD)\WcfServiceLibraryToDB\obj\Debug\WcfServiceLibraryToDB.csprojResolveAssemblyReference.cache
+E:\Studies\С#\miniProgects\WinForms\TaskQulix(WinFormsWCFBD)\WcfServiceLibraryToDB\obj\Debug\WcfServiceLibraryToDB.csproj.CoreCompileInputs.cache
+E:\Studies\С#\miniProgects\WinForms\TaskQulix(WinFormsWCFBD)\WcfServiceLibraryToDB\obj\Debug\WcfServiceLibraryToDB.dll
+E:\Studies\С#\miniProgects\WinForms\TaskQulix(WinFormsWCFBD)\WcfServiceLibraryToDB\obj\Debug\WcfServiceLibraryToDB.pdb

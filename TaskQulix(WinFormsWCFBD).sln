@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsTask", "WinFormsTask\WinFormsTask.csproj", "{180925BF-3C76-4129-A14B-ED0DD662EFC6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BE8BA787-EBC2-4B4B-BA34-34528676092A} = {BE8BA787-EBC2-4B4B-BA34-34528676092A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceLibraryToDB", "WcfServiceLibraryToDB\WcfServiceLibraryToDB.csproj", "{BE8BA787-EBC2-4B4B-BA34-34528676092A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{180925BF-3C76-4129-A14B-ED0DD662EFC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180925BF-3C76-4129-A14B-ED0DD662EFC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180925BF-3C76-4129-A14B-ED0DD662EFC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180925BF-3C76-4129-A14B-ED0DD662EFC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE8BA787-EBC2-4B4B-BA34-34528676092A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE8BA787-EBC2-4B4B-BA34-34528676092A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE8BA787-EBC2-4B4B-BA34-34528676092A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE8BA787-EBC2-4B4B-BA34-34528676092A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10BEE6DA-1498-4F51-A8F0-3049B76A5096}
+	EndGlobalSection
+EndGlobal

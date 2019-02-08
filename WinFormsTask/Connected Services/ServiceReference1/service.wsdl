@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/WcfServiceLibraryToDB" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/WcfServiceLibraryToDB.Models" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetStaff_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStaff" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetStaff_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStaffResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertStaff_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertStaff" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertStaff_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertStaffResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateStaff_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateStaff" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateStaff_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateStaffResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeletetStaff_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeletetStaff" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeletetStaff_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletetStaffResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetTasks_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTasks" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetTasks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTasksResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertTask_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertTask" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertTask_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertTaskResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateTask_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateTask" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateTask_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateTaskResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeletetTask_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeletetTask" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeletetTask_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletetTaskResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataResponse" message="tns:IService1_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContract" message="tns:IService1_GetDataUsingDataContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContractResponse" message="tns:IService1_GetDataUsingDataContract_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStaff">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetStaff" message="tns:IService1_GetStaff_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetStaffResponse" message="tns:IService1_GetStaff_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertStaff">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertStaff" message="tns:IService1_InsertStaff_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertStaffResponse" message="tns:IService1_InsertStaff_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStaff">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateStaff" message="tns:IService1_UpdateStaff_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateStaffResponse" message="tns:IService1_UpdateStaff_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletetStaff">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeletetStaff" message="tns:IService1_DeletetStaff_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeletetStaffResponse" message="tns:IService1_DeletetStaff_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTasks">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetTasks" message="tns:IService1_GetTasks_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetTasksResponse" message="tns:IService1_GetTasks_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertTask">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertTask" message="tns:IService1_InsertTask_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertTaskResponse" message="tns:IService1_InsertTask_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTask">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateTask" message="tns:IService1_UpdateTask_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateTaskResponse" message="tns:IService1_UpdateTask_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletetTask">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeletetTask" message="tns:IService1_DeletetTask_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeletetTaskResponse" message="tns:IService1_DeletetTask_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStaff">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetStaff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertStaff">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertStaff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStaff">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateStaff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletetStaff">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeletetStaff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTasks">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetTasks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertTask">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertTask" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTask">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateTask" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletetTask">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeletetTask" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WcfServiceLibraryToDB/Service1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
